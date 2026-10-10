@@ -1,6 +1,7 @@
 name: Envoyer l'anecdote quotidienne
 
 on:
+  push:
   schedule:
     - cron: '0 8 * * *'
   workflow_dispatch:
